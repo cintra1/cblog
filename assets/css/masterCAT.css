@@ -96,6 +96,11 @@ nav ul li a {
       color: #000 !important;
 }
 
+.title{
+      margin-top: 0.5rem;
+      text-align: center;
+}
+
 .topicos{
       display: flex;
       flex-direction: column;
@@ -105,10 +110,26 @@ nav ul li a {
       margin-top: 3rem;
 }
 
-.title{
-      text-align: center;
+.text{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
 }
 
+.text p{
+      width: 50%;
+      text-align: justify;
+}
+
+
+.footer{
+      width: 100%;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      padding-bottom: 1rem;
+}
 
 footer{
       width: 100%;
@@ -116,6 +137,10 @@ footer{
       bottom: 0;
       left: 0;
       text-align: center;
+}
+
+.footer p{
+      font-size: 0.9rem;
 }
 
 footer p{

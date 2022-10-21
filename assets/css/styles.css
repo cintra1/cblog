@@ -18,7 +18,6 @@ body {
       height: 100vh;
       font-family: Poppins;
       font-weight: 400;
-      background: url(../img/foto4.png);
       background-position: center;
       background-size: cover;
 }
@@ -209,4 +208,30 @@ nav ul li a {
 
 .hidden {
       display: none;
+}
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.call-to-action-btn {
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    font-weight: 400;
+    font-family: "Poppins";
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.focus {
+    color: white;
+    background-color: black;
+    transition: all 0.2s;
 }

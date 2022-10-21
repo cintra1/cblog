@@ -96,6 +96,11 @@ nav ul li a {
       color: #000 !important;
 }
 
+.title{
+      margin-top: 0.5rem;
+      text-align: center;
+}
+
 .topicos{
       display: flex;
       flex-direction: column;
@@ -105,10 +110,54 @@ nav ul li a {
       margin-top: 3rem;
 }
 
-.title{
-      text-align: center;
+.text{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
 }
 
+.text p{
+      width: 50%;
+      min-width: 24rem;
+      text-align: justify;
+}
+
+.btn{
+      width: 12rem;
+      height: 3rem;
+      font-size: 1rem;
+      font-family: Poppins;
+      background-color: transparent;
+      border: solid 2px #8EA299;
+      border-radius: 1.4rem;
+      margin-top: 3rem;
+}
+
+.rede{
+      width: 3rem;
+      height: 3rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      font-family: Poppins;
+      background-color: transparent;
+      border: solid 2px #8EA299;
+      border-radius: 1.4rem;
+      margin: 0.75rem;
+}
+
+.foto{
+      width: 20rem;
+}
+
+
+.footer{
+      width: 100%;
+      position: relative;
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      padding-bottom: 1rem;
+}
 
 footer{
       width: 100%;
@@ -116,6 +165,10 @@ footer{
       bottom: 0;
       left: 0;
       text-align: center;
+}
+
+.footer p{
+      font-size: 0.9rem;
 }
 
 footer p{

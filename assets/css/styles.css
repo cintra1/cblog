@@ -34,7 +34,7 @@ nav {
 }
 
 .logo a {
-      color: #7EBAE7;;
+      color: #7EBAE7;
       text-transform: uppercase;
       font-weight: 700;
       font-size: 18px;
@@ -216,8 +216,7 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 80vh;
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 
 .call-to-action-btn {

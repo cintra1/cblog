@@ -101,13 +101,17 @@ nav ul li a {
       text-align: center;
 }
 
+.title h1{
+      color: #7EBAE7;
+}
+
 .topicos{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       text-align: center;
       gap: 2rem;
-      margin-top: 3rem;
+      margin-top: 2rem;
 }
 
 .text{

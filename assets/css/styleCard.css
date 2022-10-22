@@ -1,31 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-* {
-      box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
-
-html {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100vh;
-}
-
-body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100vh;
-      font-family: Poppins;
-      font-weight: 400;
-      /* background: url(../img/foto4.png); */
-      background-position: center;
-      background-size: cover;
-}
-
-hr{
-      margin-top: 3.5rem;
-      width: 93%;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 nav {
@@ -33,16 +18,18 @@ nav {
 }
 
 .logo {
-      float: left;
+      position: absolute;
+      top: 1.8%;
+      left: 0;
       padding: 8px;
       margin-left: 16px;
       margin-top: 12px;
 }
 
 .logo a {
-      color: #000;
+      color: #7EBAE7;
       text-transform: uppercase;
-      font-weight: 700;
+      font-weight: 600;
       font-size: 18px;
       letter-spacing: 0px;
       text-decoration: none;
@@ -50,13 +37,6 @@ nav {
 }
 
 .logo a:hover, nav a:hover{
-      color: #7EBAE7;
-}
-
-.cat__nav:hover{
-      color: black !important;
-}
-.cat__nav{
       color: #7EBAE7;
 }
 
@@ -89,111 +69,6 @@ nav ul li a {
       font-weight: 600;
       transition: 0.3s;
 }
-
-
-.principal a{
-      text-decoration: none;
-      color: #000 !important;
-}
-
-.title{
-      margin-top: 0.5rem;
-      text-align: center;
-}
-
-.title h1{
-      color: #7EBAE7;
-}
-
-.topicos{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      text-align: center;
-      gap: 2rem;
-      margin-top: 2rem;
-}
-
-.text{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-}
-
-.text p{
-      width: 50%;
-      min-width: 24rem;
-      text-align: justify;
-}
-
-.btn{
-      width: 12rem;
-      height: 3rem;
-      font-size: 1rem;
-      font-family: Poppins;
-      background-color: transparent;
-      border: solid 2px #7EBAE7;
-      border-radius: 1.4rem;
-      margin-top: 3rem;
-}
-
-.btn:hover{
-      color: white !important;
-      background-color: #7EBAE7;
-      border: none;
-      transition: all 0.3s;
-}
-
-.rede{
-      width: 3rem;
-      height: 3rem;
-      font-size: 1.5rem;
-      font-weight: 600;
-      font-family: Poppins;
-      background-color: transparent;
-      border: solid 2px #7EBAE7;
-      border-radius: 1.4rem;
-      margin: 0.75rem;
-}
-
-
-.rede:hover{
-      color: white !important;
-      background-color: #7EBAE7;
-      border: none;
-      transition: all 0.3s;
-}
-
-.foto{
-      width: 25rem;
-}
-
-
-.footer{
-      width: 100%;
-      position: relative;
-      bottom: 0;
-      left: 0;
-      text-align: center;
-      padding-bottom: 1rem;
-}
-
-footer{
-      width: 100%;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      text-align: center;
-}
-
-.footer p{
-      font-size: 0.9rem;
-}
-
-footer p{
-      font-size: 0.9rem;
-}
-
 
 @media screen and (max-width: 864px) {
       .logo {
@@ -328,55 +203,75 @@ footer p{
       display: none;
 }
 
+
 .container2{
-      position: relative;
-      width: 100%;
-      height: 400px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .container2 .card{
-      position: absolute;
-      top: calc(50% - 200px);
-      transform: translate(-50%,calc(100px * var(--i))) rotate(40deg) skew(-20deg,-10deg);
-      width: 300px;
-      height: 400px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 25px 25px 100px rgba(0, 0, 0, 0.2);
-      z-index: calc(-1 * var(--i));
-      transition: 0.5s;
-  }
-  .container2 .card:nth-child(1){
-      opacity: 1;
-  }
-  .container2 .card:nth-child(2){
-      opacity: 0.8;
-  }
-  .container2 .card:nth-child(3){
-      opacity: 0.6;
-  }
-  .container2:hover .card{
-      position: absolute;
-      top: 50%;
-      z-index: 1;
-      opacity: 1;
-      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
-      transform: translate(calc(-50% + calc(350px * var(--i))), -50%) rotate(0deg) skew(0deg,0deg);
-  }
-  .container2 .card .content{
-      color: #444;
-      opacity: 0;
-      transition: 0.5s;
-      transform: translateY(50px);
-      padding: 25px;
-      text-align: center;
-  }
-  .container2:hover .card .content{
-      opacity: 1;
-      transform: translateY(0px);
-      transition-delay: calc(0.2s * var(--j));
-  }
+    position: relative;
+    width: 1100px;
+    height: 400px;
+}
+.container2 .card{
+    position: absolute;
+    top: calc(50% - 200px);
+    left: 50%;
+    transform: translate(-50%,calc(100px * var(--i))) rotate(40deg) skew(-20deg,-10deg);
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 25px 25px 100px rgba(0, 0, 0, 0.2);
+    z-index: calc(-1 * var(--i));
+    transition: 0.5s;
+}
+.container2 .card:nth-child(1){
+    opacity: 1;
+}
+.container2 .card:nth-child(2){
+    opacity: 0.8;
+}
+.container2 .card:nth-child(3){
+    opacity: 0.6;
+}
+.container2:hover .card{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    opacity: 1;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+    transform: translate(calc(-50% + calc(350px * var(--i))), -50%) rotate(0deg) skew(0deg,0deg);
+}
+.container2 .card .content{
+    color: #444;
+    opacity: 0;
+    transition: 0.5s;
+    transform: translateY(50px);
+    padding: 25px;
+    text-align: center;
+}
+.container2:hover .card .content{
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: calc(0.2s * var(--j));
+}
+.container2 img{
+    width: 17rem;
+}
+
+.btn{
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-family: Poppins;
+    background-color: transparent;
+    border: solid 2px #7EBAE7;
+    border-radius: 1.4rem;
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    color: white !important;
+    background-color: #7EBAE7;
+    border: none;
+    transition: all 0.3s;
+}

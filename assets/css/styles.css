@@ -218,7 +218,6 @@ nav ul li a {
     flex-direction: column;
     height: 80vh;
     margin-top: 4rem;
-    cursor: pointer;
 }
 
 .call-to-action-btn {
@@ -230,9 +229,14 @@ nav ul li a {
     font-family: "Poppins";
     cursor: pointer;
     transition: all 0.2s;
+    color: #000;
 }
 
-.focus {
+.call-to-action-btn a{
+      text-decoration: none;
+}
+
+.focus, .focus a {
     color: white;
     background-color: #7EBAE7;
     border: none;

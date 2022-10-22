@@ -99,6 +99,9 @@ nav ul li a {
 .title{
       margin-top: 0.5rem;
       text-align: center;
+      padding-right: 18px;
+      padding-left: 18px;
+      margin-bottom: -0.3rem;
 }
 
 .title h1{

@@ -50,14 +50,14 @@ nav {
 }
 
 .logo a:hover, nav a:hover{
-      color: #8EA299;
+      color: #7EBAE7;
 }
 
 .cat__nav:hover{
       color: black !important;
 }
 .cat__nav{
-      color: #8EA299;
+      color: #7EBAE7;
 }
 
 
@@ -128,7 +128,7 @@ nav ul li a {
       font-size: 1rem;
       font-family: Poppins;
       background-color: transparent;
-      border: solid 2px #8EA299;
+      border: solid 2px #7EBAE7;
       border-radius: 1.4rem;
       margin-top: 3rem;
 }
@@ -140,7 +140,7 @@ nav ul li a {
       font-weight: 600;
       font-family: Poppins;
       background-color: transparent;
-      border: solid 2px #8EA299;
+      border: solid 2px #7EBAE7;
       border-radius: 1.4rem;
       margin: 0.75rem;
 }

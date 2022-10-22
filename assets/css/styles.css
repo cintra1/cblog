@@ -34,7 +34,7 @@ nav {
 }
 
 .logo a {
-      color: #000;
+      color: #7EBAE7;;
       text-transform: uppercase;
       font-weight: 700;
       font-size: 18px;
@@ -44,7 +44,7 @@ nav {
 }
 
 .logo a:hover, nav a:hover{
-      color: #8EA299;
+      color: #7EBAE7;
 }
 
 
@@ -215,6 +215,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 80vh;
     margin-top: 4rem;
 }
@@ -232,6 +233,13 @@ nav ul li a {
 
 .focus {
     color: white;
-    background-color: black;
+    background-color: #7EBAE7;
+    border: none;
     transition: all 0.2s;
 }
+
+.ihouse{
+      width: 15rem;
+      margin-bottom: 1.5rem;
+}
+

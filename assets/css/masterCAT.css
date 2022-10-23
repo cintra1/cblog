@@ -127,6 +127,8 @@ nav ul li a {
       width: 50%;
       min-width: 24rem;
       text-align: justify;
+      padding-right: 18px;
+      padding-left: 18px;
 }
 
 .btn{

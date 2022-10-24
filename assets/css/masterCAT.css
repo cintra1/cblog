@@ -115,6 +115,8 @@ nav ul li a {
       text-align: center;
       gap: 2rem;
       margin-top: 2rem;
+      padding-right: 18px;
+      padding-left: 18px;
 }
 
 .text{

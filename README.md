@@ -6,3 +6,6 @@
 
 #
 Um blog com intuito de compartilhar conhecimento e mostrar como me comporto como programador.
+
+# Como Acessar?
+Entre no link do portfólio ou clique aqui: https://cintra1.github.io/cblog/
